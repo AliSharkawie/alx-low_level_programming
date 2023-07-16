@@ -12,9 +12,7 @@
 
 int main(void)
 {
-	char x = "and that piece of art is usefu
-l\" - Dora Korpar, 2015-10-19";
-
-	write(2, x, 59);
+	write(2,"and that piece of art is usef
+ul\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
