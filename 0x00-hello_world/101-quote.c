@@ -15,6 +15,6 @@ int main(void)
 	char x = "and that piece of art is usefu
 l\" - Dora Korpar, 2015-10-19";
 
-	write(1, x, 59);
+	write(2, x, 59);
 	return (1);
 }
