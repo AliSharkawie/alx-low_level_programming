@@ -2,6 +2,7 @@
 #include<time.h>
 #include<stdio.h>
 #include <math.h>
+#include<ctype.h>
 
 /* more headers goes there */
 /**
@@ -15,14 +16,17 @@
 int main(void)
 {
 	char arr[] = "abcdefghijklmnopqrstuvwxyz";
+	int i = 0, I = 0;
 
-	for (int i = 0 ; i < 28 ; i++)
+	while (i < 28)
 	{
 		putchar(arr[i]);
+		i++;
 	}
-	for (int i = 0 ; i < 28 ; i++)
+	while (I < 28)
 	{
-		putchar(toupper(arr[i]));
+		putchar(toupper(arr[I]));
+		I++;
 	}
 	putchar('\n');
 	return (0);
