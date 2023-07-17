@@ -28,6 +28,5 @@ int main(void)
 		putchar(toupper(arr[I]));
 		I++;
 	}
-	putchar('\n');
 	return (0);
 }
