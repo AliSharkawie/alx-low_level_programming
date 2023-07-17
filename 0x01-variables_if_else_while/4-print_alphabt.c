@@ -18,7 +18,7 @@ int main(void)
 
 	while (x <= 'z')
 	{
-		if (arr[i] == 'q' || arr[i] == 'e')
+		if (x == 'q' || x == 'e')
 			continue;
 		putchar(arr[i]);
 		x++;

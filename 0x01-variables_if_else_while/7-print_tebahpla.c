@@ -13,11 +13,12 @@
 
 int main(void)
 {
-	char arr[] = "abcdefghijklmnopqrstuvwxyz";
+	char x = 'z';
 
-	for (int i = 27 ; i >= 0 ; i--)
+	while (x >= 'a')
 	{
-		putchar(arr[i]);
+		putchar(x);
+		x++;
 	}
 	putchar('\n');
 	return (0);

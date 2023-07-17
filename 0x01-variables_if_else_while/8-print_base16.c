@@ -13,13 +13,18 @@
 
 int main(void)
 {
-	for (int i = 0 ; i < 10 ; i++)
+	int i = 0;
+	char letter = 'a';
+
+	while (i < 10)
 	{
 		putchar((i + '0'));
+		i++;
 	}
-	for (char letter = 'a' ; letter <= 'f' ; letter++)
+	while (letter <= 'f')
 	{
 		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
