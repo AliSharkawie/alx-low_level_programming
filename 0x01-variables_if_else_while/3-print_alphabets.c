@@ -15,18 +15,17 @@
 
 int main(void)
 {
-	char arr[] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0, I = 0;
+	char x = 'a', y = 'A';
 
-	while (i < 27)
+	while (x <= 'z')
 	{
-		putchar(arr[i]);
-		i++;
+		putchar(x);
+		x++;
 	}
-	while (I < 27)
+	while (y <= 'Z')
 	{
-		putchar(toupper(arr[I]));
-		I++;
+		putchar(y);
+		y++;
 	}
 	return (0);
 }
