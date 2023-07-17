@@ -20,7 +20,7 @@ int main(void)
 	{
 		if (x == 'q' || x == 'e')
 			continue;
-		putchar(arr[i]);
+		putchar(x);
 		x++;
 	}
 	putchar('\n');
