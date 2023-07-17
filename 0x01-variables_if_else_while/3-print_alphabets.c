@@ -18,12 +18,12 @@ int main(void)
 	char arr[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0, I = 0;
 
-	while (i < 28)
+	while (i < 27)
 	{
 		putchar(arr[i]);
 		i++;
 	}
-	while (I < 28)
+	while (I < 27)
 	{
 		putchar(toupper(arr[I]));
 		I++;
