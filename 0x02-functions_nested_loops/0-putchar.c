@@ -16,8 +16,8 @@ int main(void)
 	while (i < 8)
 	{
 		_putchar(arr[i]);
-		_putchar('\n');
 		i++;
 	}
+	_putchar('\n');
 	return (0);
 }

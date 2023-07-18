@@ -5,6 +5,6 @@
 #include<stdio.h>
 #include<math.h>
 
-void _putchar(void);
+void _putchar(char x);
 
 #endif
