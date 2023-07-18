@@ -10,13 +10,14 @@
 
 int main(void)
 {
-	char arr = "_putchar";
+	char arr[8] = "_putchar";
 	int i = 0;
 
-	while (i < 9)
+	while (i < 8)
 	{
 		_putchar(arr[i]);
 		_putchar('\n');
+		i++;
 	}
 	return (0);
 }
