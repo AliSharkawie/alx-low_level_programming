@@ -1,11 +1,9 @@
 #include"main.h"
 
 /**
- * main - Entry point
+ * print_alphabet -  This is the print_alphabet function that prints a message.
+ * Return : no return value  (Success)
  *
- * Description: This is the main function that prints a message.
- *
- * Return: Always 0 (Success)
 */
 
 void print_alphabet(void)
