@@ -10,7 +10,7 @@
  *
 */
 
-int print_last_digit(int x1)
+int print_last_digit(int x)
 {
 	if (x < 0)
 	{
