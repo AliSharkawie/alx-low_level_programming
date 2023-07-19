@@ -16,20 +16,26 @@ void times_table(void)
 
 	while (i <= 9)
 	{
-		j = 0;
+		j = 1;
+		
+		putchar('0');
 		while (j <= 9)
 		{
-			printf("%2d", ((i * j)));
-			if (j == 9)
+			putchar(',');
+			putchar(' ');
+			if (i * j < 10)
 			{
-				j++;
-				continue;
+				putchar(' ');
+				putchar(((i * j) % 10) + '0');
 			}
-			printf("%c", ',');
-			printf("%c", ' ');
+			else
+			{
+				putchar(((i * j) / 10) + '0');
+				putchar(((i * j) % 10) + '0');
+			}
 			j++;
 		}
-		printf("%c", '\n');
+		putchar('\n');
 		i++;
 	}
 }
