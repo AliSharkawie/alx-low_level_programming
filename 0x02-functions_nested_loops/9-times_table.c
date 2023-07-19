@@ -25,11 +25,11 @@ void times_table(void)
 				j++;
 				continue;
 			}
-			_putchar(',');
-			_putchar(' ');
+			printf("%c", ',');
+			printf("%c", ' ');
 			j++;
 		}
-		_putchar('\n');
+		printf("%c", '\n');
 		i++;
 	}
 }
