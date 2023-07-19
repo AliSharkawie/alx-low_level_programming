@@ -19,15 +19,7 @@ void times_table(void)
 		j = 0;
 		while (j <= 9)
 		{
-			if (i * j >= 10)
-			{
-				printf("%3d", ((i * j) / 10));
-				printf("%3d", ((i * j) % 10));
-			}
-			else
-			{
-				printf("%3d", ((i * j) % 10));
-			}
+			printf("%3d", ((i * j)));
 			if (j == 9)
 			{
 				j++;
