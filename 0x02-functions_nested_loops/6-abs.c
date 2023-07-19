@@ -12,8 +12,5 @@
 
 int _abs(int x)
 {
-	if (x == abs(x))
-		return (1);
-	else
-		return (0);
+	return (abs(x));
 }

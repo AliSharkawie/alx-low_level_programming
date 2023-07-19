@@ -14,9 +14,18 @@
 int print_sign(int n)
 {
 	if (n > 0)
-		return (53);
+	{
+		_putchar('+');
+		return (1);
+	}
 	else if (n == 0)
-		return (60);
+	{
+		_putchar('0');
+		return (0);
+	}
 	else
-		return (55);
+	{
+		_putchar('-');
+		return (-1);
+	}
 }
